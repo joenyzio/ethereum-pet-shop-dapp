@@ -1,19 +1,32 @@
 {
   "name": "pet-shop",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'build script executed'",
+    "deploy": "gh-pages -d src"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@truffle/hdwallet-provider": "^1.5.1",
+    "gh-pages": "^3.2.3",
     "lite-server": "^2.3.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joenyzio/ethereum-pet-shop-dapp.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/joenyzio/ethereum-pet-shop-dapp/issues"
+  },
+  "homepage": "https://github.com/joenyzio/ethereum-pet-shop-dapp",
+  "description": ""
 }
